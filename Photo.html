@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <body>
+    <center>
+<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/contact.processed.css">
+  </head>
+  
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#heading">Photos</a>
+    </div>
+    <div id="navigation">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="Menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="Reviews.html">Reviews</a>
+        </li>
+        <li>
+          <a href="About.html">About</a>
+        </li>
+        <li>
+          <a href="Contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="Photo.html">Photo</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<section>
+  <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c33.0.200.200a/p200x200/49330439_1822301571225931_6677945233495293952_n.jpg?_nc_cat=111&_nc_ht=scontent-atl3-1.xx&oh=5affb577017b608ed980c8f150cc470f&oe=5CBED902" width="45%">
+  <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c0.22.200.200a/p200x200/47008775_1773179282804827_4109839469509607424_n.jpg?_nc_cat=102&_nc_ht=scontent-atl3-1.xx&oh=80a77a3f796da08dadb57b186df8f09a&oe=5CC22A2A" width="45%">
+  <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c0.21.200.200a/p200x200/44581776_1719001494889273_5194663425824784384_n.jpg?_nc_cat=101&_nc_ht=scontent-atl3-1.xx&oh=4bbbef848942a61f98c971d3c2eaf805&oe=5CD0A090" width="45%">
+  <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c37.0.200.200a/p200x200/43058331_1698535593602530_1589721950647746560_n.jpg?_nc_cat=100&_nc_ht=scontent-atl3-1.xx&oh=2c4006a17b01a3aab629aaf3af32d36e&oe=5D10F7C2" width="45%">
+</section>
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {
+      myIndex = 1
+    }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }
+      </script>
+  <style>
+    body{
+     background-image:url(https://c1.staticflickr.com/5/4145/5084485739_c88fb828a3_b.jpg);
+      background-repeat: no-repeat;
+    background-size: 2000px 1505px;
+    }
+    h1{
+      color:rgb(0, 199, 199);
+    }
+    p{
+      color:rgb(0, 199, 199);
+      font-size:35px;
+    }
+    p{
+      float: right;
+    }
+  </style>
+    <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c50.0.200.200a/p200x200/42689802_1693415470781209_4923104300239945728_n.jpg?_nc_cat=100&_nc_ht=scontent-atl3-1.xx&oh=956f0310e5065f0896a597c7de7189cb&oe=5D1DFC7C" width="30%">
+      <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c50.0.200.200a/p200x200/21742884_1293961214059972_3904477910026015788_n.jpg?_nc_cat=104&_nc_ht=scontent-atl3-1.xx&oh=c70fcce3f2dd0d564ddf7bb0631bf675&oe=5CE5A797" width="30%">
+      <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-0/c0.1.200.200a/p200x200/44057854_1712109688911787_4997296183786340352_n.jpg?_nc_cat=102&_nc_ht=scontent-atl3-1.xx&oh=d6b8f3891e68c00a3e9750794f43731b&oe=5D209880" width="30%">
+  </body>
+</head>
